@@ -10,3 +10,4 @@ seaborn
 black
 click 
 pylint
+pytest

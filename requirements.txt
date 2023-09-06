@@ -6,7 +6,6 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-math
 #Others
 black
 click 

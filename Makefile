@@ -5,10 +5,10 @@ install:
 
 #Adding this to format code using black
 format:	
-	black *.py 
+	black /Codes/*.py 
 
 test:
-	python -m pytest Check_*.py
+	python -m pytest /Codes/Check_*.py
 
 lint:
 	pylint --disable=R,C --ignore-patterns=check_.*?py *.py

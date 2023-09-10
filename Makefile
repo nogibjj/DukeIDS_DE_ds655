@@ -8,7 +8,7 @@ format:
 	black \Codes/*.py 
 
 test:
-	python -m pytest \Codes/Check_*.py
+	python -m pytest \Codes/test_*.py
 
 lint:
 	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py

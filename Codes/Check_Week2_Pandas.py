@@ -2,11 +2,9 @@
 import pandas as pd
 from Pandas_Description import PandasDesc
 
+Data_Link = "https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv"
 
-data = {'product': ['A', 'B', 'C', 'C', 'D'],
-        'price': [22000, 27000, 25000, 29000, 35000],
-        'year': [2014, 2015, 2016, 2017, 2018]
-        }
+data = pd.read_csv(Data_Link)
 
 df = pd.DataFrame(data)
 print(PandasDesc(df))

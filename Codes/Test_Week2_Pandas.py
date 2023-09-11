@@ -4,7 +4,9 @@ from Pandas_Description import PandasDesc
 
 Data_Link = "https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv"
 
-data = pd.read_csv(Data_Link)
+def test_Pandas():
+    data = pd.read_csv(Data_Link)
+    df = pd.DataFrame(data)
+    print(PandasDesc(df))
 
-df = pd.DataFrame(data)
-print(PandasDesc(df))
+test_Pandas()

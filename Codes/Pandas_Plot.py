@@ -5,7 +5,7 @@ import matplotlib.image as mpimg
 
 def PandasPlot(df):
     groups = df.groupby('species')
-    fig, ax = plt.subplots()
+    ax = plt.subplots()
     for name, group in groups:
         ax.plot(group.sepal_length, group.sepal_width, marker='o', linestyle='', ms=12, label=name)
     ax.legend()

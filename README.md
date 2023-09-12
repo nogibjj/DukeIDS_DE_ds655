@@ -19,7 +19,9 @@ Files in this repository include:
   The code files in this folder are -
    * `Pandas_Description.py` - this is a python function to share the description of a dataframe
    * `Pandas_Plot.py` - this is a python function to plot a chart from the dataframe and save it as a png file
-   * `Test_Week2_Pandas.py` - this is a python code to test the functions defined
+   * `Test_Week2_Pandas.py` - this is a python code to test the functions defined - this function can also be called by the pytest module in the Makefile of the repository.
+
+     ![Make Test Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Successful_Test.png?raw=true)
 
 
 ## 4. Resources
@@ -35,7 +37,7 @@ Files in this repository include:
 
   * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Pandas
 
-    ![Summary Screenshot]([https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Summary_Screenshot.png?raw=true)
+    ![Summary Screenshot](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Summary_Screenshot.png?raw=true)
 
 
     

@@ -40,6 +40,7 @@ Files in this repository include:
     ![Summary Screenshot](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Summary_Screenshot.png?raw=true)
 
 
+  * This folder also contains all the images used in the README
     
 ## 5. CI/CD Automation Files
 

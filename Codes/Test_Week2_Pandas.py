@@ -2,7 +2,6 @@
 import pandas as pd
 from Pandas_Description import PandasDesc
 from Pandas_Plot import PandasPlot
-
 def test_Pandas():
     #   Reading Source Data from the Github Link
     DataSource_Link = "https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv"
@@ -11,8 +10,9 @@ def test_Pandas():
 
     #   Creating the sample files in the Resources folder
     # Writing the summary statistics to a file Summary.md in output folder
+    Desc_df = PandasDesc(df_s)
     with open("./Resources/Summary.md", "w", encoding="utf-8") as f:
-        f.write(PandasDesc(df_s))
+        f.write(str(Desc_df))
     # Pasting the sample graph in the output folder
     PandasPlot(df_s)
 

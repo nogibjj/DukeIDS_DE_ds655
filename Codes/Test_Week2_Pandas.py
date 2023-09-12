@@ -12,7 +12,7 @@ def test_Pandas():
     #   Creating the sample files in the Resources folder
     # Writing the summary statistics to a file Summary.md in output folder
     with open("./Resources/Summary.md", "w", encoding="utf-8") as f:
-        f.write(str(PandasDesc(df_s)))
+        f.write(PandasDesc(df_s))
     # Pasting the sample graph in the output folder
     PandasPlot(df_s)
 

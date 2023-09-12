@@ -25,9 +25,20 @@ Files in this repository include:
 ## 4. Resources
   -  This folder contains any other files relevant to this project. Currently, I have added -
   * `iris_dataset` - this is a copy of the iris dataset, in case the link is not accessible (Original link - https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv)
+
+  
   * `plot image.png` - this is the chart plotted using the `pandas_plot.py` script from the Codes folder - this gets automatically saved here every time the code is run
 
 
+    ![Plot Image Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/plot%20image.png?raw=true)
+
+
+  * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Pandas
+
+    ![Summary Screenshot]([https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Summary_Screenshot.png?raw=true)
+
+
+    
 ## 5. CI/CD Automation Files
 
 

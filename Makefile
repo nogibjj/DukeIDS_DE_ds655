@@ -18,7 +18,7 @@ git:
 	git config user.name "Divya"
 	git config user.email "divya.sharma@duke.edu"
 	python \Codes/main.py
-	git add .
+	git add \Resources/Summary_1.md \Resources/plot\ image.png
 	git commit -m "Updated these files Automatically"
 	git push
     env:

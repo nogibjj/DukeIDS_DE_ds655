@@ -19,7 +19,7 @@ git:
 	git config user.email "divya.sharma@duke.edu"
 	python \Codes/main.py
 	git add \Resources/*
-	git commit -m "Updated these files Automatically"
+	git commit -m "Updated these files Automatically" || echo "ignore commit failure"
 	git push
     env:
 	GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

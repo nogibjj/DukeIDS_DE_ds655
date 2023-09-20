@@ -21,3 +21,5 @@ jobs:
       run: make lint
     - name: Test
       run: make test
+    - name: Git
+      run: make git

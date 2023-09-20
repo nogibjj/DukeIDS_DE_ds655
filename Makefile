@@ -15,7 +15,7 @@ lint:
 
 git:
 	git add .
-	git commit --author="username divya.sharma@duke.edu" 
+	git commit --author="username divya.sharma@duke.edu"
 	git push -u origin master
 
 all: install format lint test git

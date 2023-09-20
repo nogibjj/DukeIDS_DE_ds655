@@ -15,7 +15,7 @@ lint:
 
 git:
 	git add .
-	git commit -m "testing push from makefile" -c user.name="Divya" -c user.email="divya.sharma@duke.edu"
+	git commit -c user.name="Divya" -c user.email="divya.sharma@duke.edu" -m "testing push from makefile"
 	git push -u origin master
 
 all: install format lint test git

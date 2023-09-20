@@ -13,7 +13,7 @@ def PandasDesc(df):
     f.flush()
     d = df.describe()
     f.write(th.md_table(d, formats={-1: "c"}))
-    #f.write(str(df.describe()))
+    # f.write(str(df.describe()))
     f.write("\n")
     f.write(str(datetime.datetime.now()))
     f.write("\n")

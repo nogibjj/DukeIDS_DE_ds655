@@ -13,4 +13,9 @@ test:
 lint:
 	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py
 
-all: install format lint test
+git:
+    git add .
+    git commit -m "testing push from makefile"
+    git push -u origin master
+
+all: install format lint test git

@@ -16,6 +16,7 @@ lint:
 git:
 	git add .
 	git -c user.name="Divya" -c user.email="<divya.sharma@duke.edu>" commit
+	git commit -m "My commit message"
 	git push -u origin master
 
 all: install format lint test git

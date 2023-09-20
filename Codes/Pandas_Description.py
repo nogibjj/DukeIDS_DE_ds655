@@ -12,17 +12,11 @@ def PandasDesc(df):
     f = open("./Resources/Summary.md", "w", encoding="utf-8")
     f.flush()
     d = df.describe()
-    h = d[:0]
-    # print(h.columns)
     s = d.transpose()
-    # s.set_index(h.columns, inplace=False)
-    # print(str(d))
-    # print(str(s))
     s["index"] = s.index
     column_to_move = s.pop("index")
     s.insert(0, "column name", column_to_move)
     f.write(th.md_table(s, formats={-1: "c"}))
-    # print(th.md_table(s))
     f.write("\n\n\n")
     f.write("Generated at: " + str(datetime.datetime.now()))
     f.write("\n\n\n")

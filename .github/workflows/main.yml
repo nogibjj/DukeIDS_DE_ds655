@@ -23,3 +23,13 @@ jobs:
       run: make test
     - name: Git
       run: make git
+    - name: Save to repository
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: |
+        echo GH_TOKEN: "${GH_TOKEN}"
+        git config --global user.name 'github-actions'
+        git config --local user.email "action@github.com"
+        git add .
+        git commit -m "Adding Files" || echo "ignoring commit errors"
+        git push

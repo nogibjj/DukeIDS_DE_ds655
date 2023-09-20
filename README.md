@@ -32,7 +32,7 @@ Files in this repository include:
   * `plot image.png` - this is the chart plotted using the `pandas_plot.py` script from the Codes folder - this gets automatically saved here every time the code is run
 
 
-    ![Plot Image Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/plot%20image.png?raw=true)
+    ![Plot Image Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/PlotImage.png?raw=true)
 
 
   * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Pandas

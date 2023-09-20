@@ -1,5 +1,6 @@
 #   Importing Packages
 import matplotlib.pyplot as plt
+import os
 
 
 def PandasPlot(df):
@@ -20,6 +21,8 @@ def PandasPlot(df):
     )
     plt.xlabel("Sepal Length")
     plt.ylabel("Sepal Width")
+    if os.path.isfile("./Resources/PlotImage.png"):
+        os.remove("./Resources/PlotImage.png")
     plt.savefig("./Resources/PlotImage.png")
     print("Pasted Plot")
     plt.show()

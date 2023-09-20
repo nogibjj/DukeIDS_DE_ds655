@@ -1,6 +1,7 @@
 #  IDS 706 Week 2 assignment - Creating a function to show descriptive statistics for a dataframe
 # import pandas as pd
 import os
+import datetime
 
 
 def PandasDesc(df):
@@ -10,6 +11,7 @@ def PandasDesc(df):
     f = open("./Resources/Summary.md", "w", encoding="utf-8")
     f.flush()
     f.write(str(df.describe()))
+    f.write(datetime.datetime.now())
     f.write("\n")
     f.write(f"""![Graph]({"PlotImage.png"})""")
     f.close()

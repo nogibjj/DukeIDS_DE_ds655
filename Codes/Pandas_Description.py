@@ -10,6 +10,8 @@ def PandasDesc(df):
         os.remove("./Resources/Summary.md")
     f = open("./Resources/Summary.md", "w", encoding="utf-8")
     f.flush()
+    d = df.describe()
+    print(th.md_table(d, formats={-1: 'c'}))
     f.write(str(df.describe()))
     f.write("\n")
     f.write(str(datetime.datetime.now()))

@@ -20,6 +20,6 @@ def PandasPlot(df):
     )
     plt.xlabel("Sepal Length")
     plt.ylabel("Sepal Width")
-    plt.savefig("./Resources/plot image.png")
+    plt.savefig("./Resources/PlotImage.png")
     print("Pasted Plot")
     plt.show()

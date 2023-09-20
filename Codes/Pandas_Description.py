@@ -10,7 +10,7 @@ def PandasDesc(df):
     f.flush()
     f.write(str(df.describe()))
     f.write("\n")
-    f.write(f"""![Graph]({"./Resources/PlotImage.png"})""")
+    f.write(f"""![Graph]({"PlotImage.png"})""")
     f.close()
     print("Summary of the dataframe has been saved to Summary.md")
     return df.describe()

@@ -5,8 +5,8 @@ import os
 
 def PandasDesc(df):
     """Code to return a summary of a dataframe and save it to a file"""
-    os.remove("./Resources/Summary_1.md")
-    f = open("./Resources/Summary_1.md", "w", encoding="utf-8")
+    os.remove("./Resources/Summary.md")
+    f = open("./Resources/Summary.md", "w", encoding="utf-8")
     f.flush()
     f.write(str(df.describe()))
     f.write("\n")

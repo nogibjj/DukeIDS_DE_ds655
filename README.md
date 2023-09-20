@@ -29,17 +29,18 @@ Files in this repository include:
   * `iris_dataset` - this is a copy of the iris dataset, in case the link is not accessible (Original link - https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv)
 
   
-  * `plot image.png` - this is the chart plotted using the `pandas_plot.py` script from the Codes folder - this gets automatically saved here every time the code is run
+  * `PlotImage.png` - this is the chart plotted using the `pandas_plot.py` script from the Codes folder - this gets automatically saved here every time the code is run, along with the timestamp
 
 
     ![Plot Image Output](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/PlotImage.png?raw=true)
 
 
-  * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Pandas
+  * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Pandas. This file also contains a timestamp for when it was created, and the image that was generated in the code (PlotImage.png)
 
     ![Summary Screenshot](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_SummaryMarkdown.png?raw=true)
 
 
+  *_The PlotImage.png file and the Summary.md file are auto-created every time a workflow is run, using the YML File defined in CI Automation
   * This folder also contains all the images used in the README
     
 ## 5. CI/CD Automation Files

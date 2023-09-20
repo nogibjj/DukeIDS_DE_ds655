@@ -13,6 +13,7 @@ def test_Pandas():
     Desc_df = PandasDesc(df_s)
     with open("./Resources/Summary.md", "w", encoding="utf-8") as f:
         f.write(str(Desc_df))
+    print('Generated md file')
     # Pasting the sample graph in the output folder
     PandasPlot(df_s)
 

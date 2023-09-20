@@ -15,13 +15,12 @@ lint:
 	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py
 
 git:
-	run: |
-		python \Codes/main.py
-		git config user.name "Divya"
-		git config user.email "divya.sharma@duke.edu"
-		git add .
-		git commit -m "Updated files"
-		git push -u origin main
+	python \Codes/main.py
+	git config user.name "Divya"
+	git config user.email "divya.sharma@duke.edu"
+	git add .
+	git commit -m "Updated these files Automatically"
+	git push -u origin main
 	env:
 	        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

@@ -14,6 +14,6 @@ lint:
 	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py
 
 git:
-	git push -u origin master
+	git push -u origin main
 
 all: install format lint test git

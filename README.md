@@ -37,7 +37,7 @@ Files in this repository include:
 
   * `Summary.md` - This is a markdown file containing the Summary Statistics created using the describe() function in Pandas
 
-    ![Summary Screenshot](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_Summary_Screenshot.png?raw=true)
+    ![Summary Screenshot](https://github.com/nogibjj/DukeIDS706_ds655_Week02/blob/main/Resources/Week2_SummaryMarkdown.png?raw=true)
 
 
   * This folder also contains all the images used in the README

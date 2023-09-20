@@ -11,4 +11,5 @@ def PandasPlot(df):
     plt.xlabel('Sepal Length')
     plt.ylabel('Sepal Width')
     plt.savefig('./Resources/plot image.png')
+    print('Pasted Plot')
     plt.show()

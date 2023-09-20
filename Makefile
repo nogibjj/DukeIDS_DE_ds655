@@ -21,7 +21,5 @@ git:
 	git add .
 	git commit -m "Updated these files Automatically"
 	git push -u origin main
-	env:
-	GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 all: install format lint test git

@@ -3,4 +3,6 @@
 
 
 def PandasDesc(df):
+    with open("./Resources/Summary.md", "w", encoding="utf-8") as f:
+        f.write(str(df.describe()))
     return df.describe()

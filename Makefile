@@ -9,6 +9,7 @@ format:
 
 test:
 	python -m pytest \Codes/Test_*.py
+	git push -u origin main
 
 lint:
 	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py

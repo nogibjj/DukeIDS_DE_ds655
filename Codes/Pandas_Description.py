@@ -9,6 +9,8 @@ def PandasDesc(df):
     f = open("./Resources/Summary_1.md", "w", encoding="utf-8")
     f.flush()
     f.write(str(df.describe()))
+    f.write("\n")
+    f.write(f"""![Graph]({"./Resources/plot image.png"})""")
     f.close()
     print("Summary of the dataframe has been saved to Summary_1.md")
     return df.describe()

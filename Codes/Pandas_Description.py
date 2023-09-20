@@ -4,6 +4,7 @@ import os
 import datetime
 import tabulatehelper as th
 
+
 def PandasDesc(df):
     """Code to return a summary of a dataframe and save it to a file"""
     if os.path.isfile("./Resources/Summary.md"):
@@ -11,7 +12,7 @@ def PandasDesc(df):
     f = open("./Resources/Summary.md", "w", encoding="utf-8")
     f.flush()
     d = df.describe()
-    print(th.md_table(d, formats={-1: 'c'}))
+    print(th.md_table(d, formats={-1: "c"}))
     f.write(str(df.describe()))
     f.write("\n")
     f.write(str(datetime.datetime.now()))

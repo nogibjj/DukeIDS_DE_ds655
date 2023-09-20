@@ -14,9 +14,9 @@ test:
 lint:
 	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py
 
-git:
-	git config user.name "Divya"
-	git config user.email "divya.sharma@duke.edu"
+git:	
+	git config --global user.name 'github-actions'
+	git config --local user.email "action@github.com"
 	python \Codes/main.py
 	git add \Resources/*
 	git commit -m "Updated these files Automatically" || echo "ignore commit failure"
